@@ -10,9 +10,8 @@ void setup(){
 void loop(){
   for(int pin=0; pin < tatalLEDs;pin++){
     digitalWrite(ledPins[pin], HIGH);
-    delay(300);
+    delay(3000);
     digitalWrite(ledPins[pin],LOW);
   }
 
 }
-

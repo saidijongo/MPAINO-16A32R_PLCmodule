@@ -1,4 +1,6 @@
-const int totalLEDs = 32;
+//const int totalLEDs = 32;
+const int totalLEDs = 32; //16 pumps with dc motor driver
+
 int ledPins[totalLEDs];
 
 void setup() {

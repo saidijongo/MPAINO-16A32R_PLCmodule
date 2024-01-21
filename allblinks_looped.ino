@@ -1,5 +1,5 @@
 //const int totalLEDs = 32;
-const int totalLEDs = 32; //16 pumps with dc motor driver
+const int totalLEDs = 32; //32 pumps with dc motor driver
 
 int ledPins[totalLEDs];
 
@@ -15,7 +15,7 @@ void loop() {
   for (int pin = 0; pin < totalLEDs; pin++) {
     digitalWrite(ledPins[pin], HIGH);
   }
-  delay(300);  // Delay with all LEDs on
+  delay(30000);  // Run all LEDs/ ON
 
   // Turn off all LEDs
   for (int pin = 0; pin < totalLEDs; pin++) {
